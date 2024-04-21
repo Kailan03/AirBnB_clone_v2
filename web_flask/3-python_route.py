@@ -1,18 +1,21 @@
 #!/usr/bin/python3
 """
-This module defines a Flask web application with several routes, each demonstrating
+This module defines a Flask web application
+with several routes, each demonstrating
 simple text responses with dynamic route parameters and default values.
 - /: Displays 'Hello HBNB!'
 - /hbnb: Displays 'HBNB'
 - /c/<text>: Displays 'C <text>', underscores in text are replaced by spaces
-- /python/(<text>): Displays 'Python <text>', with 'is cool' as the default text, underscores are replaced by spaces
+- /python/(<text>): Displays 'Python <text>', with 'is cool'
+as the default text, underscores are replaced by spaces
 """
 from flask import Flask
 
 app = Flask(__name__)
 """
 This instance of the Flask class initializes the web application.
-Handles routing and responses, managing web requests according to the defined routes.
+Handles routing and responses,
+managing web requests according to the defined routes.
 """
 
 

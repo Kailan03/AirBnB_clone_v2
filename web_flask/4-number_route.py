@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 """
-This module defines a Flask web application with various routes for different purposes.
+This module defines a Flask web application
+with various routes for different purposes.
 """
 from flask import Flask
 
