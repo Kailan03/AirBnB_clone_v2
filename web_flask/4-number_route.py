@@ -1,7 +1,13 @@
 #!/usr/bin/python3
+"""
+This module defines a Flask web application with various routes for different purposes.
+"""
 from flask import Flask
 
 app = Flask(__name__)
+"""
+This instance of the Flask class initializes the Flask web application.
+"""
 
 
 @app.route('/', strict_slashes=False)
