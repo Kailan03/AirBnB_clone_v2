@@ -12,8 +12,10 @@ from flask import Flask
 app = Flask(__name__)
 """
 This instance of the Flask class initializes your application.
-It acts as the central object that all configurations, routes, and more will be registered with.
+It acts as the central object that all configurations,
+routes, and more will be registered with.
 """
+
 
 @app.route('/', strict_slashes=False)
 def hello_hbnb():
